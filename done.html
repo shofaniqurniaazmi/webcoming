@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Features Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <link rel="stylesheet" href="styles.css">
+  <div class="bg-black">
+    <h3 class="absolute" style="top: 5%; width: 100%; text-align: center;">
+      We Made Scanning Skin <span class="text-blue-500">Easier!</span>
+    </h3>
+    
+    <div class="ring-container" id="ring-container">
+      <div class="ring outer-ring"></div>
+      <div class="ring middle-ring"></div>
+      <div class="ring inner-ring"></div>
+    </div>
+    
+    <div class="container relative z-10 flex items-center justify-center py-10 mx-auto" id="featuresContainer">
+      <div class="feature-grid" id="featuresGrid">
+        <div class="feature-card">
+          <h4 class="mb-4 text-lg font-semibold text-black">Recommend Product Skincare</h4>
+          <img src="assets/product.png" alt="Recommend Product Skincare" class="feature-image" />
+        </div>
+        <div class="feature-card" id="detectionCard">
+          <h4 class="mb-4 text-lg font-semibold text-black">Detection Your Skin</h4>
+          <img src="assets/scan.png" alt="Detection Your Skin" class="feature-image" />
+        </div>
+        <div class="feature-card">
+          <h4 class="mb-4 text-lg font-semibold text-black">Tracking Your Progress</h4>
+          <img src="assets/track.png" alt="Tracking Your Progress" class="feature-image" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
